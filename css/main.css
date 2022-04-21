@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+  body div {
+    width: 100%; }
+    body div header {
+      text-align: center;
+      width: 100%;
+      background-color: #029987; }
+      body div header nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        body div header nav a {
+          color: #fff;
+          text-decoration: none;
+          margin-bottom: .5em; }
+        body div header nav ul {
+          margin-bottom: .5em; }
+          body div header nav ul li {
+            margin-bottom: .5em;
+            list-style: none; }
+            body div header nav ul li a:hover {
+              background-color: #fff;
+              color: #029987;
+              border-radius: 1em;
+              padding: .3em; }
+            body div header nav ul li a img {
+              width: 50px;
+              height: 50px; }
+    body div main {
+      width: 100%; }
+      body div main .inicio-Section {
+        width: 100%; }
+        body div main .inicio-Section .inicio-Contenedor-Img {
+          width: 100%;
+          position: relative;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          color: #fff;
+          text-shadow: 2px 2px 2px black;
+          font-size: 2em; }
+          body div main .inicio-Section .inicio-Contenedor-Img img {
+            width: 100%; }
+          body div main .inicio-Section .inicio-Contenedor-Img div {
+            width: 100%;
+            position: absolute;
+            z-index: 1; }
+        body div main .inicio-Section .inicio-Contenedor-Texto-Portada {
+          width: 100%;
+          background-color: #029987;
+          color: #fff; }
+          body div main .inicio-Section .inicio-Contenedor-Texto-Portada .inicio-Subcontenedor-Texto-Portada {
+            text-align: center; }
+            body div main .inicio-Section .inicio-Contenedor-Texto-Portada .inicio-Subcontenedor-Texto-Portada p {
+              text-align: justify;
+              padding: 1em; }
+    body div footer {
+      background-color: #029987;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      color: #fff; }
+      body div footer div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        body div footer div p {
+          text-align: center; }
+        body div footer div div {
+          display: flex;
+          flex-direction: row; }
+          body div footer div div img {
+            width: 50px;
+            height: 50px; }
